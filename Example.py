@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import time
 
 start_time = time.time()
-# Joint variables (pulling or pushing rods 1,2,4, and 5)
+# Joint variables (pulling or pushing rods 1,2,4, and 5 plus insertino of stiff tube in the robot)
 q = np.array([0.0, 0.0, 0.0, 0.0, 0.0])
 u0 = np.array([0.0, 0.0, 0.0, 0.0])
 length_seg1 = 150e-3  # length of long rods
